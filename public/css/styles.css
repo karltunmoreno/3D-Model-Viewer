@@ -1,0 +1,13 @@
+/* public/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.design {
+    margin: 20px;
+}
+
+.viewer {
+    width: 400px;
+    height: 400px;
+}

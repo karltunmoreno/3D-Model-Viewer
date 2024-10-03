@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<div id="designs">
+    {{#each designs}}
+        <div class="design" data-file="{{this.file}}">
+            <h2>{{this.name}}</h2>
+            <div class="viewer" id="viewer-{{this.id}}"></div>
+        </div>
+    {{/each}}
+</div>
+
+<div class="design" data-file="{{file}}">
+    <h2>{{name}}</h2>
+    <div class="viewer" id="viewer-{{id}}"></div>
+</div>
+
+
+

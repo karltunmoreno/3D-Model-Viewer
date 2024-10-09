@@ -4,18 +4,14 @@
   "description": "Google API - MVC- 3D MODEL VIEWER",
   "main": "app.js",
   "scripts": {
+    "start": "http-server",
+    "build": "your-build-command",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.0",
-    "express-handlebars": "^8.0.1",
-    "handlebars": "^4.7.8",
-    "three": "^0.169.0"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "@google/model-viewer": "^3.5.0"
   }
 }

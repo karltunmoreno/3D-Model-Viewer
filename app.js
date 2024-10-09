@@ -1,22 +1,13 @@
-const express = require("express");
-const exphbs = require("express-handlebars");
-const bodyParser = require("body-parser");
-const designRoutes = require("./controllers/designController");
+// app.js
+import { ModelController } from './controllers/modelController.js';
+import '@google/model-viewer';
 
-const app = express();
+const controller = new ModelController();
+const modelViewer = document.querySelector('#model-viewer');
 
-// Middleware
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
+window.onload = () => {
+    const model = controller.getModelByName('Example Model');
+    modelViewer.src = model.src;
+    modelViewer.alt = model.alt;
+};
 
-// Handlebars
-app.engine("handlebars", exphbs());
-app.set("view engine", "handlebars");
-
-// Routes
-app.use("/", designRoutes);
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});

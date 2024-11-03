@@ -1,15 +1,17 @@
 {
   "name": "3d-model-viewer",
   "version": "1.0.0",
-  "description": "my-model-viewer/\r ├── index.html\r ├── shared-assets/\r │   ├── environments/\r │   │   └── moon_1k.hdr\r │   ├── models/\r │   │   └── NeilArmstrong.glb\r │   └── images/\r │       └── NeilArmstrong.webp\r └── README.md",
-  "main": "javascript.js",
+  "description": "A 3D model viewer using Google's Model Viewer",
+  "main": "index.js",
   "scripts": {
+    "start": "live-server --open=index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Karltun M.",
   "license": "ISC",
   "dependencies": {
-    "@google/model-viewer": "^4.0.0",
-    "live-server": "^1.2.0"
+    "@google/model-viewer": "^1.9.2",
+    "express": "^4.21.1",
+    "live-server": "^1.2.1"
   }
 }

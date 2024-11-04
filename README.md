@@ -9,6 +9,8 @@ my-model-viewer/
 │ └── NeilArmstrong.webp
 └── README.md
 
+MADE FOR DISPLAYING PRODUCTS - BIG BRAND ITEMS - FURNITURE - OBJECTS - IN 3D.
+
 ---
 
 Credits: The 3D Program is a small group of technologists working within the Smithsonian Institution's Digitization Program Office.
@@ -49,3 +51,55 @@ Credit Line: Transferred from the National Aeronautics and Space Administration
 Credit: "Orbiter, Space Shuttle, OV-103, Discovery" Transferred from the National Aeronautics and Space Administration
 
 ---
+
+Sketchfab
+
+---
+
+Download NODE packages.
+
+NPM Install
+
+Then, run
+Live-Server to run Server.js file.
+
+---
+
+Image 7#
+Credits: Description (Brief)
+This guitar was made by Candelario Delgado in Los Angeles, California, in 1967. It is a custom-made guitar is of light wood with geometric pattern around sound hole and on bridge and head. Six strings with mother of pearl tuning pegs. There is a printed label:
+
+Candelario Delgado
+Fabricante de Guitarras Guitar Maker
+Luthier
+Concert Guitars
+Classical and Flamenco
+Made in U.S.A.
+1066 SUNSET BLVD. - LOS ANGELES, CALIF.
+
+---
+
+TECH USED:
+
+UI - UX
+
+### Front End
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
+![Sass](https://img.shields.io/badge/-SASS-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&color=d1b01f)
+
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?logo=bootstrap&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?logo=jquery&logoColor=white&style=for-the-badge)
+
+#### Back-end:
+
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB&style=for-the-badge)
+![Node.js ](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge)
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+
+#### Editors and Operating Systems:
+
+![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)

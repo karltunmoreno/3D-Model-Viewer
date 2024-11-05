@@ -12,6 +12,7 @@
   "dependencies": {
     "@google/model-viewer": "^1.9.2",
     "express": "^4.21.1",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "three": "^0.170.0"
   }
 }

@@ -56,9 +56,10 @@ Credit Line: Transferred from the National Aeronautics and Space Administration
 Credit: "Orbiter, Space Shuttle, OV-103, Discovery" Transferred from the National Aeronautics and Space Administration
 
 ---
-
+Credits:
+Lionsharp Studios
 Sketchfab
-
+"Red Starfleet uniform worn by Nichelle Nichols as Lt. Uhura on Star Trek"
 ---
 
 Download NODE packages.

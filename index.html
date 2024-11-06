@@ -16,6 +16,11 @@
       src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"
     ></script>
 
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
     <style>
       model-viewer {
         width: 100%;
@@ -34,7 +39,7 @@
       body {
         font-family: "Orbitron", sans-serif;
         background-color: #e9e8e8;
-        color: #0f0f0f;
+        color: #ffffff;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -51,14 +56,34 @@
       model-viewer {
         width: 100%;
         height: 75vh;
-        background-color: #e9e8e8;
+        background-color: #736f6f;
       }
     </style>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Zilla+Slab:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Add site Favicon -->
+    <link rel="shortcut icon" href="images/" type="image/x-icon" />
+    <link rel="icon" href="images/" type="image/x-icon" />
+    <meta name="msapplication-TileImage" content="images/" />
   </head>
 
-  <body>
+  <body class="dark-body">
+
+    <div class="pull-left logo-box">
+      <div class="logo"><a href="index.html"><img src="images\logo.png" alt="" title=""></a></div>
+    </div>
+
+
+
+
+
     <h1>
-      Karltun Moreno <br />
+       <br />
       3D
       <br />
       Model Graphic Viewer
@@ -66,18 +91,18 @@
     <br />
     <br />
     <h2>
-      MADE FOR DISPLAYING PRODUCTS - BIG BRANDS - FURNITURE - OBJECTS - GAMING -
-      AUGMENTED REALITY - SPATIAL VIEWING - ECOMMERCE - ENTERTAINMENT -
-      EDUCATION - MANUFACTURING - HEALTHCARE - RETAIL - ALL IN IN 3D.
+      BIG BRANDS - FURNITURE - GAMING - AUGMENTED
+      REALITY - SPATIAL VIEWING - ECOMMERCE - ENTERTAINMENT - EDUCATION -
+      MANUFACTURING - HEALTHCARE - RETAIL
     </h2>
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt=""
       src="shared-assets\models\Autonomous_Camera_Rob_1104041031.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -91,12 +116,12 @@
     <br />
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt=""
       src="shared-assets\models\Cybernetic_Sentinel_1105045440.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -110,12 +135,12 @@
     <br />
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt=""
       src="shared-assets\models\Futuristic_Boots_1104040322.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -129,12 +154,12 @@
     <br />
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt=""
       src="shared-assets\models\Futuristic_Hovercraft_1104041924.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -148,12 +173,36 @@
     <br />
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-      src="shared-assets\models\Futuristic_Elegance_1104035457.glb"
+      alt=""
+      src="shared-assets\models\CR_88_Robot_Design_1105211549.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
+      camera-controls
+      auto-rotate
+      ar
+      shadow-intensity="1"
+      touch-action="pan-y"
+      interaction-prompt="when-focused"
+    >
+    </model-viewer>
+
+    <br />
+    <br />
+
+
+
+
+<!--next wave 6th-->
+
+<model-viewer
+      alt=""
+      src="shared-assets\models\Robotic_Observer_1105211018.glb"
+      camera-controls
+      auto-rotate
+      ar
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -167,12 +216,141 @@
     <br />
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt=""
+      src="shared-assets\models\Robotic_Camera_Explor_1105210210.glb"
+      camera-controls
+      auto-rotate
+      ar
+      poster=""
+      camera-controls
+      auto-rotate
+      ar
+      shadow-intensity="1"
+      touch-action="pan-y"
+      interaction-prompt="when-focused"
+    >
+    </model-viewer>
+
+    <br />
+    <br />
+
+
+    <model-viewer
+      alt=""
+      src="shared-assets\models\Robotic_Sentinel_A3_1105203542.glb"
+      camera-controls
+      auto-rotate
+      ar
+      poster=""
+      camera-controls
+      auto-rotate
+      ar
+      shadow-intensity="1"
+      touch-action="pan-y"
+      interaction-prompt="when-focused"
+    >
+    </model-viewer>
+
+    <br />
+    <br />
+
+
+    <model-viewer
+      alt=""
+      src="shared-assets\models\Robotic_Titan_1105212258.glb"
+      camera-controls
+      auto-rotate
+      ar
+      poster=""
+      camera-controls
+      auto-rotate
+      ar
+      shadow-intensity="1"
+      touch-action="pan-y"
+      interaction-prompt="when-focused"
+    >
+    </model-viewer>
+
+    <br />
+    <br />
+
+    <model-viewer
+      alt=""
+      src="shared-assets\models\Rusty_Rover_1105213148.glb"
+      camera-controls
+      auto-rotate
+      ar
+      poster=""
+      camera-controls
+      auto-rotate
+      ar
+      shadow-intensity="1"
+      touch-action="pan-y"
+      interaction-prompt="when-focused"
+    >
+    </model-viewer>
+
+    <br />
+    <br />
+
+
+<!--End next wave-->
+
+
+<model-viewer
+alt=""
+src="shared-assets\models\LensBot_Explorer_1105213805.glb"
+camera-controls
+auto-rotate
+ar
+poster=""
+camera-controls
+auto-rotate
+ar
+shadow-intensity="1"
+touch-action="pan-y"
+interaction-prompt="when-focused"
+>
+</model-viewer>
+
+<br />
+<br />
+
+
+
+
+
+<model-viewer
+alt=""
+src="shared-assets\models\Futuristic_Rover_1105204926.glb"
+camera-controls
+auto-rotate
+ar
+poster=""
+camera-controls
+auto-rotate
+ar
+shadow-intensity="1"
+touch-action="pan-y"
+interaction-prompt="when-focused"
+>
+</model-viewer>
+
+<br />
+<br />
+
+
+
+
+
+
+    <model-viewer
+      alt=""
       src="shared-assets\models\Monkey_Ray_Design_1104041438.glb"
       camera-controls
       auto-rotate
       ar
-      poster="shared-assets/images/NeilArmstrong.webp"
+      poster=""
       camera-controls
       auto-rotate
       ar
@@ -203,8 +381,7 @@
     >
     </model-viewer>
     <h2>
-      Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs
-      Office and National Air and Space Museum
+      Neil Armstrong's Spacesuit
     </h2>
     <br />
     <br />
@@ -223,7 +400,7 @@
     >
     </model-viewer>
 
-    <h2>"Credit Line: Sci Fi Helmet"</h2>
+    <h2>"Sci Fi Helmet"</h2>
 
     <br />
     <br />
@@ -242,7 +419,7 @@
     >
     </model-viewer>
 
-    <h2>"Orbiter, Space Shuttle, OV-103, Discovery"</h2>
+    <h2>"Orbiter, Space Shuttle Discovery"</h2>
 
     <br />
     <br />
@@ -260,7 +437,7 @@
     >
     </model-viewer>
 
-    <h2>" Porsche 911 Carrera 4S - Lionsharp Studios "</h2>
+    <h2>" Porsche 911 Carrera 4S  "</h2>
 
     <br />
     <br />
@@ -278,7 +455,7 @@
     >
     </model-viewer>
 
-    <h2>"Freer Gallery of Art, given by a private collector in 1978" "</h2>
+    <h2>"Freer Gallery of Art"</h2>
 
     <br />
     <br />
@@ -297,7 +474,7 @@
     </model-viewer>
 
     <h2>
-      "Red Starfleet uniform worn by Nichelle Nichols as Lt. Uhura on Star Trek"
+      "Red Starfleet - Star Trek"
     </h2>
 
     <br />
@@ -306,7 +483,7 @@
     <!--NEW LINE..................Image 7-->
 
     <model-viewer
-      alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
+      alt="Concerto Candelas Guitar, played by Jose Feliciano"
       src="shared-assets\models\nmah-2018_0136_01-feliciano_guitar-100k-2048_std_draco.glb"
       camera-controls
       auto-rotate
@@ -317,12 +494,17 @@
     >
     </model-viewer>
 
-    <h2>Concerto Candelas Guitar, played by Jose Feliciano</h2>
+    <h2>Guitar - Jose Feliciano</h2>
 
     <br />
     <br />
 
-    <h2>Outer Dev Solutions/Outer Bounds Pictures/3D Branding</h2>
+    <h2>
+     
+      <br />
+      Outer Bounds Pictures
+    </h2>
+    2025
     <h2></h2>
 
     <a href="https://github.com/karltunmoreno"> </a>
@@ -331,5 +513,26 @@
     <a href="https://www.outerboundspictures.com">
       WWW.OUTERBOUNDSPICTURES.COM
     </a>
+
+    <!-- Scroll To Top -->
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+      <span class="fa fa-arrow-circle-up"></span>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+    <br>
+    <br>
   </body>
 </html>
